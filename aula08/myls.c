@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
         perror("Erro no fork\n");
         return EXIT_FAILURE;
     case 0: /* processo filho */
-        if (execl("/bin/ls", "ls -la", NULL) < 0)
+        if (execl("/bin/ls", "ls" ,"-la", NULL) < 0)
         {
             perror("erro no lancamento da aplicacao");
             return EXIT_FAILURE;

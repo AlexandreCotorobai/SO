@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
       case 0:  /* processo filho */
 
             // TAREFA 2
-            //     if (execl("/bin/ls", "ls -1", NULL) < 0) { 
+            //     if (execl("/bin/ls", "ls","-l", NULL) < 0) { 
             //        perror("erro no lancamento da aplicacao");
             //        return EXIT_FAILURE;
             //    }
