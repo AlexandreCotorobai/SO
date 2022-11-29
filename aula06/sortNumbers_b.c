@@ -38,7 +38,6 @@ int main(int argc, char *argv[])
     /* Memory allocation for all the numbers in the arguments */
     numbers = (int *)malloc(sizeof(int) * numSize);
 
-
     fp = fopen(argv[1], "r");
 
     while (fgets(line, sizeof(line), fp) != NULL)

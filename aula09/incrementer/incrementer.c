@@ -70,7 +70,7 @@ int main (int argc, char *argv[])
 
     /* launching the 'pthreads' */
     pthread_t thr[nthr];                                                             /* ids of the incrementing threads */
-    int i;                                                                                         /* counting variable */
+    int i;
     int *status_p;                                                                /* pointer to thread execution status */
 
     printf ("Launching %d threads, each performing %d increments\n", nthr, niter);
@@ -98,7 +98,7 @@ int main (int argc, char *argv[])
 
     return EXIT_SUCCESS;
 }
-
+  
 
 /*
  * thread routine
