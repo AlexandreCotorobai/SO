@@ -4,7 +4,7 @@
 
 
 int main(int argc, char *argv[]){
-    char s[1000];
+    char s[1000] = "\0";
     for(int i = 1; i < argc; i++){
 
         strcat(s, argv[i]);
